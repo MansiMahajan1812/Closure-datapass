@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B17C1A95211D933A0008FF50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C1A94211D933A0008FF50 /* AppDelegate.swift */; };
+		B17C1A97211D933A0008FF50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C1A96211D933A0008FF50 /* ViewController.swift */; };
+		B17C1A9A211D933B0008FF50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B17C1A98211D933B0008FF50 /* Main.storyboard */; };
+		B17C1A9C211D933B0008FF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B17C1A9B211D933B0008FF50 /* Assets.xcassets */; };
+		B17C1A9F211D933B0008FF50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B17C1A9D211D933B0008FF50 /* LaunchScreen.storyboard */; };
+		B17C1AAA211D933B0008FF50 /* CloserDataPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C1AA9211D933B0008FF50 /* CloserDataPassTests.swift */; };
+		B17C1AB5211D933B0008FF50 /* CloserDataPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C1AB4211D933B0008FF50 /* CloserDataPassUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B17C1AA6211D933B0008FF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B17C1A89211D933A0008FF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17C1A90211D933A0008FF50;
+			remoteInfo = CloserDataPass;
+		};
+		B17C1AB1211D933B0008FF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B17C1A89211D933A0008FF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17C1A90211D933A0008FF50;
+			remoteInfo = CloserDataPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B17C1A91211D933A0008FF50 /* CloserDataPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloserDataPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17C1A94211D933A0008FF50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B17C1A96211D933A0008FF50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B17C1A99211D933B0008FF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B17C1A9B211D933B0008FF50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B17C1A9E211D933B0008FF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B17C1AA0211D933B0008FF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B17C1AA5211D933B0008FF50 /* CloserDataPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloserDataPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17C1AA9211D933B0008FF50 /* CloserDataPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloserDataPassTests.swift; sourceTree = "<group>"; };
+		B17C1AAB211D933B0008FF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B17C1AB0211D933B0008FF50 /* CloserDataPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloserDataPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17C1AB4211D933B0008FF50 /* CloserDataPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloserDataPassUITests.swift; sourceTree = "<group>"; };
+		B17C1AB6211D933B0008FF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B17C1A8E211D933A0008FF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17C1AA2211D933B0008FF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17C1AAD211D933B0008FF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B17C1A88211D933A0008FF50 = {
+			isa = PBXGroup;
+			children = (
+				B17C1A93211D933A0008FF50 /* CloserDataPass */,
+				B17C1AA8211D933B0008FF50 /* CloserDataPassTests */,
+				B17C1AB3211D933B0008FF50 /* CloserDataPassUITests */,
+				B17C1A92211D933A0008FF50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B17C1A92211D933A0008FF50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B17C1A91211D933A0008FF50 /* CloserDataPass.app */,
+				B17C1AA5211D933B0008FF50 /* CloserDataPassTests.xctest */,
+				B17C1AB0211D933B0008FF50 /* CloserDataPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B17C1A93211D933A0008FF50 /* CloserDataPass */ = {
+			isa = PBXGroup;
+			children = (
+				B17C1A94211D933A0008FF50 /* AppDelegate.swift */,
+				B17C1A96211D933A0008FF50 /* ViewController.swift */,
+				B17C1A98211D933B0008FF50 /* Main.storyboard */,
+				B17C1A9B211D933B0008FF50 /* Assets.xcassets */,
+				B17C1A9D211D933B0008FF50 /* LaunchScreen.storyboard */,
+				B17C1AA0211D933B0008FF50 /* Info.plist */,
+			);
+			path = CloserDataPass;
+			sourceTree = "<group>";
+		};
+		B17C1AA8211D933B0008FF50 /* CloserDataPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				B17C1AA9211D933B0008FF50 /* CloserDataPassTests.swift */,
+				B17C1AAB211D933B0008FF50 /* Info.plist */,
+			);
+			path = CloserDataPassTests;
+			sourceTree = "<group>";
+		};
+		B17C1AB3211D933B0008FF50 /* CloserDataPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B17C1AB4211D933B0008FF50 /* CloserDataPassUITests.swift */,
+				B17C1AB6211D933B0008FF50 /* Info.plist */,
+			);
+			path = CloserDataPassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B17C1A90211D933A0008FF50 /* CloserDataPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17C1AB9211D933B0008FF50 /* Build configuration list for PBXNativeTarget "CloserDataPass" */;
+			buildPhases = (
+				B17C1A8D211D933A0008FF50 /* Sources */,
+				B17C1A8E211D933A0008FF50 /* Frameworks */,
+				B17C1A8F211D933A0008FF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloserDataPass;
+			productName = CloserDataPass;
+			productReference = B17C1A91211D933A0008FF50 /* CloserDataPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B17C1AA4211D933B0008FF50 /* CloserDataPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17C1ABC211D933B0008FF50 /* Build configuration list for PBXNativeTarget "CloserDataPassTests" */;
+			buildPhases = (
+				B17C1AA1211D933B0008FF50 /* Sources */,
+				B17C1AA2211D933B0008FF50 /* Frameworks */,
+				B17C1AA3211D933B0008FF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B17C1AA7211D933B0008FF50 /* PBXTargetDependency */,
+			);
+			name = CloserDataPassTests;
+			productName = CloserDataPassTests;
+			productReference = B17C1AA5211D933B0008FF50 /* CloserDataPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B17C1AAF211D933B0008FF50 /* CloserDataPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17C1ABF211D933B0008FF50 /* Build configuration list for PBXNativeTarget "CloserDataPassUITests" */;
+			buildPhases = (
+				B17C1AAC211D933B0008FF50 /* Sources */,
+				B17C1AAD211D933B0008FF50 /* Frameworks */,
+				B17C1AAE211D933B0008FF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B17C1AB2211D933B0008FF50 /* PBXTargetDependency */,
+			);
+			name = CloserDataPassUITests;
+			productName = CloserDataPassUITests;
+			productReference = B17C1AB0211D933B0008FF50 /* CloserDataPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B17C1A89211D933A0008FF50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Mansi Mahajan";
+				TargetAttributes = {
+					B17C1A90211D933A0008FF50 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					B17C1AA4211D933B0008FF50 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B17C1A90211D933A0008FF50;
+					};
+					B17C1AAF211D933B0008FF50 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B17C1A90211D933A0008FF50;
+					};
+				};
+			};
+			buildConfigurationList = B17C1A8C211D933A0008FF50 /* Build configuration list for PBXProject "CloserDataPass" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B17C1A88211D933A0008FF50;
+			productRefGroup = B17C1A92211D933A0008FF50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B17C1A90211D933A0008FF50 /* CloserDataPass */,
+				B17C1AA4211D933B0008FF50 /* CloserDataPassTests */,
+				B17C1AAF211D933B0008FF50 /* CloserDataPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B17C1A8F211D933A0008FF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17C1A9F211D933B0008FF50 /* LaunchScreen.storyboard in Resources */,
+				B17C1A9C211D933B0008FF50 /* Assets.xcassets in Resources */,
+				B17C1A9A211D933B0008FF50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17C1AA3211D933B0008FF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17C1AAE211D933B0008FF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B17C1A8D211D933A0008FF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17C1A97211D933A0008FF50 /* ViewController.swift in Sources */,
+				B17C1A95211D933A0008FF50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17C1AA1211D933B0008FF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17C1AAA211D933B0008FF50 /* CloserDataPassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17C1AAC211D933B0008FF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17C1AB5211D933B0008FF50 /* CloserDataPassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B17C1AA7211D933B0008FF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17C1A90211D933A0008FF50 /* CloserDataPass */;
+			targetProxy = B17C1AA6211D933B0008FF50 /* PBXContainerItemProxy */;
+		};
+		B17C1AB2211D933B0008FF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17C1A90211D933A0008FF50 /* CloserDataPass */;
+			targetProxy = B17C1AB1211D933B0008FF50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B17C1A98211D933B0008FF50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B17C1A99211D933B0008FF50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B17C1A9D211D933B0008FF50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B17C1A9E211D933B0008FF50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B17C1AB7211D933B0008FF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B17C1AB8211D933B0008FF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B17C1ABA211D933B0008FF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CloserDataPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TVE.CloserDataPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B17C1ABB211D933B0008FF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CloserDataPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TVE.CloserDataPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B17C1ABD211D933B0008FF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CloserDataPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TVE.CloserDataPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloserDataPass.app/CloserDataPass";
+			};
+			name = Debug;
+		};
+		B17C1ABE211D933B0008FF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CloserDataPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TVE.CloserDataPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloserDataPass.app/CloserDataPass";
+			};
+			name = Release;
+		};
+		B17C1AC0211D933B0008FF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CloserDataPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TVE.CloserDataPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloserDataPass;
+			};
+			name = Debug;
+		};
+		B17C1AC1211D933B0008FF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CloserDataPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TVE.CloserDataPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloserDataPass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B17C1A8C211D933A0008FF50 /* Build configuration list for PBXProject "CloserDataPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17C1AB7211D933B0008FF50 /* Debug */,
+				B17C1AB8211D933B0008FF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B17C1AB9211D933B0008FF50 /* Build configuration list for PBXNativeTarget "CloserDataPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17C1ABA211D933B0008FF50 /* Debug */,
+				B17C1ABB211D933B0008FF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B17C1ABC211D933B0008FF50 /* Build configuration list for PBXNativeTarget "CloserDataPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17C1ABD211D933B0008FF50 /* Debug */,
+				B17C1ABE211D933B0008FF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B17C1ABF211D933B0008FF50 /* Build configuration list for PBXNativeTarget "CloserDataPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17C1AC0211D933B0008FF50 /* Debug */,
+				B17C1AC1211D933B0008FF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B17C1A89211D933A0008FF50 /* Project object */;
+}
